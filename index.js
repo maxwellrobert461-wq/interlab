@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+const [email, setEmail] = useState('');
 export default function InterLab() {
   const [prompt, setPrompt] = useState('Build a todo app');
   const [code, setCode] = useState('// INTER LAB — OpenAI Platform\n// 3 free builds, then ₦50k per app');
